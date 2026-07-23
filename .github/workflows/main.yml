@@ -29,8 +29,8 @@ jobs:
 
             - name: Pushing both images to dockerhub 
               run: | 
-                docker push ${{ secrets.DOCKERHUB_USERNAME }}/wanderLust-frontend:latest 
-                docker push ${{ secrets.DOCKERHUB_USERNAME }}/wanderLust-backend:latest
+                docker push ${{ secrets.DOCKERHUB_USERNAME }}/wanderlust-frontend:latest 
+                docker push ${{ secrets.DOCKERHUB_USERNAME }}/wanderlust-backend:latest
 
             
 
